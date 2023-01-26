@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title of the Website -->
+    <title>GENDER PREDICTOR API</title>
+    <link rel="stylesheet" href="styles.css">
+        <link integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <!-- Fontawesome to get icons -->
+    <script src="https://kit.fontawesome.com/d676f25411.js" crossorigin="anonymous"></script>
+</head>
+<body class="block">
+        <div class="box">
+            <h1>
+                <legend>Predict your gender by first name</legend>
+            </h1>
+           
+            <!-- form -->
+            <form>
+                    <input placeholder="Enter First Name" type="text" name="FirstName"
+                        id="firstname">
+                    <button class="btn btn-dark" type="button" id="getApi"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+<div class="box">
+            <div id="output"></div>
+        </div>
+<!-- Calling the javascript file -->
+        <script src="index.js"></script>
+        
+    </body>
+</html>
